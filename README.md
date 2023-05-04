@@ -1,5 +1,7 @@
 # Acceleration of YOLOv4-Tiny backbone using HLS
 >***Team Members: Anusha Sumbetla, Sibi Renganatth Sudhakar, Vishwanath Kondepudi***
+
+
 Our project aims to speed up the backbone architecture of YOLOv4-Tiny object algorithm using HLS. We have used Google colab to build our Yolov4-Tiny Pytorch model and generated individual layer weights from the model. Since batch normalization is tough to run with the FPGA resources, we have opted to combine the convolution and batch normalization layers into one single layer.
 
 Our base is the Yolov4-Tiny algorithm which is discussed in the paper [https://arxiv.org/abs/2011.04244]. We have tried to implement the first 6 layers from the paper, i.e, the first two Conv2D layers and a CSP Block.
