@@ -31,7 +31,7 @@ We have not implemented Golden C as the Pytorch model was sufficient and we had 
 
  3. make clean; make all; make csimout; - To view MSE simulations with floating point
 
- 4.  make clean; make hls_sim; make csimout - To view FixedPoint simulations.
+ 4. make clean; make hls_sim; make csimout - To view FixedPoint simulations.
 
  5. Individual layer MSE can be viewed and individual layer outputs can be viewed.
 
